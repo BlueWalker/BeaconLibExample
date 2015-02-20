@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/stop_scan"
+        android:title="@string/stop_scan"
+        android:icon="@drawable/ic_action_remove"
+        android:orderInCategory="98"
+        android:visible="true"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/start_scan"
+        android:title="@string/start_scan"
+        android:icon="@drawable/ic_action_refresh"
+        android:orderInCategory="99"
+        android:visible="true"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/config_action"
+        android:title="@string/client_config"
+        android:icon="@drawable/ic_action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+
+</menu>

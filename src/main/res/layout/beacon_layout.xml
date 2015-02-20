@@ -1,0 +1,161 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/main_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/beacon_relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp">
+
+        <TextView
+            android:id="@+id/beacon_name_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beacon_name"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/primary_color_dark"/>
+
+        <TextView
+            android:id="@+id/beacon_name_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beacon_name"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"/>
+
+        <TextView
+            android:id="@+id/beacon_address_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beacon_address"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/primary_color_dark"/>
+
+        <TextView
+            android:id="@+id/beacon_address_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beacon_address"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"/>
+
+        <TextView
+            android:id="@+id/beacon_uuid_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beacon_uuid"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/primary_color_dark"/>
+
+        <TextView
+            android:id="@+id/beacon_uuid_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beacon_uuid"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"/>
+
+        <TextView
+            android:id="@+id/beacon_major_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beacon_major"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/primary_color_dark"/>
+
+        <TextView
+            android:id="@+id/beacon_major_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beacon_major"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:paddingBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/beacon_minor_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beacon_minor"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/primary_color_dark"/>
+
+        <TextView
+            android:id="@+id/beacon_minor_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beacon_minor"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:paddingBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/beacon_calibration_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beacon_calibration"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/primary_color_dark"/>
+
+        <TextView
+            android:id="@+id/beacon_calibration_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beacon_calibration"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:paddingBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/beacon_measured_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beacon_measured"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/primary_color_dark"/>
+
+        <TextView
+            android:id="@+id/beacon_measured_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beacon_measured"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:paddingBottom="10dp"/>
+    </LinearLayout>
+
+</ScrollView>
