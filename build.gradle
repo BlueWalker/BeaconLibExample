@@ -2,6 +2,7 @@ buildscript {
     repositories {
         jcenter()
     }
+
     dependencies {
         classpath 'com.android.tools.build:gradle:1.1.+'
         classpath 'com.acompagno:localcheck:0.1.+'
@@ -13,7 +14,7 @@ apply plugin: 'com.acompagno.localcheck'
 
 android {
     compileSdkVersion 21
-    buildToolsVersion "21.1.1"
+    buildToolsVersion "21.1.2"
 
     defaultConfig {
         applicationId "example.walker.blue.beacon.lib"
@@ -54,5 +55,5 @@ dependencies {
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '2.2.1'
+    gradleVersion = '2.3'
 }
