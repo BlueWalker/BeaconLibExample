@@ -43,22 +43,17 @@ public class MainActivity extends ActionBarActivity {
         this.progressBar = (ProgressBar) findViewById(R.id.progress_bar);
 
         this.beaconListFragment = new BeaconListFragment();
-        changeFragment(beaconListFragment);
+
+        this.getSupportFragmentManager()
+                .beginTransaction()
+                .replace(R.id.content_frame, beaconListFragment)
+                .commit();
     }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (requestCode == PROMPT_ENABLE_BT && resultCode == RESULT_OK) {
             this.beaconListFragment.startScanning(true);
-        }
-    }
-    @Override
-    public void onBackPressed() {
-        final Fragment currentFragment = getSupportFragmentManager().findFragmentById(R.id.content_frame);
-        if (currentFragment != null && !(currentFragment instanceof BeaconListFragment)) {
-            goBackToMainList();
-        } else {
-            this.moveTaskToBack(true);
         }
     }
 
