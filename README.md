@@ -11,6 +11,6 @@ Using the gradle wrapper, use the installDebug task
 
 Screenshots
 ---
-![Main Screen](https://github.com/BlueWalker/BeaconLibExample/raw/master/doc/Images/BeaconLibExample1.png)
-![Beacon Screen](https://github.com/BlueWalker/BeaconLibExample/raw/master/doc/Images/BeaconLibExample2.png)
-![Configuration Screen](https://github.com/BlueWalker/BeaconLibExample/raw/master/doc/Images/BeaconLibExample3.png)
+<img src="doc/Images/BeaconLibExample1.png" alt="Main Screen" height=400>
+<img src="doc/Images/BeaconLibExample2.png" alt="Beacon Information" height=400>
+<img src="doc/Images/BeaconLibExample3.png" alt="Configuration Screen" height=400>
